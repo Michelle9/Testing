@@ -8,7 +8,7 @@ script:
   - bundle update && bundle install
   - bundle exec rake db:migrate
   - bundle exec rake db:test:prepare
-  - bundle exec rspec spec/
+  - bundle exec rspec rails_projects/sample_app/spec/
   # - bundle exec rake tests
 branches:
   only:

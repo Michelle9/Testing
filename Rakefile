@@ -4,5 +4,5 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-SampleApp::Application.load_tasks
-#Equipo-SSJ::Application.load_tasks
+#SampleApp::Application.load_tasks
+Testing::Application.load_tasks
