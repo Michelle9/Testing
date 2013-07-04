@@ -1,0 +1,745 @@
+.FFFFFFFFFFFFFFFFFFFFF.......FFFFFFFFFFFFFFFFFFF...FFFFFFFFFFFFFFFF..........................F.FFFFF...FFFFF..........FFFF..FFFFFFF...FF.F.FFF..FFF.......FFF..
+
+Failures:
+
+  1) Micropost 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/micropost_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/micropost_spec.rb:6:in `block (2 levels) in <top (required)>'
+
+  2) Micropost 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/micropost_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/micropost_spec.rb:6:in `block (2 levels) in <top (required)>'
+
+  3) Micropost 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/micropost_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/micropost_spec.rb:6:in `block (2 levels) in <top (required)>'
+
+  4) Micropost 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/micropost_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/micropost_spec.rb:6:in `block (2 levels) in <top (required)>'
+
+  5) Micropost user 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/micropost_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/micropost_spec.rb:6:in `block (2 levels) in <top (required)>'
+
+  6) Micropost accessible attributes should not allow access to user_id
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/micropost_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/micropost_spec.rb:6:in `block (2 levels) in <top (required)>'
+
+  7) Micropost when user_id is not present 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/micropost_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/micropost_spec.rb:6:in `block (2 levels) in <top (required)>'
+
+  8) Micropost with content that is too long 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/micropost_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/micropost_spec.rb:6:in `block (2 levels) in <top (required)>'
+
+  9) Micropost with blank content 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/micropost_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/micropost_spec.rb:6:in `block (2 levels) in <top (required)>'
+
+  10) Micropost pages micropost destruction as correct user should delete a micropost
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/micropost_pages_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/requests/micropost_pages_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+  11) Micropost pages micropost creation with valid information should create a micropost
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/micropost_pages_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/requests/micropost_pages_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+  12) Micropost pages micropost creation with invalid information should not create a micropost
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/micropost_pages_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/requests/micropost_pages_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+  13) Micropost pages micropost creation with invalid information error messages 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/micropost_pages_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/requests/micropost_pages_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+  14) Relationship 
+     Failure/Error: let(:follower) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/relationship_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:9:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:11:in `block (2 levels) in <top (required)>'
+
+  15) Relationship when followed id is not present 
+     Failure/Error: let(:follower) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/relationship_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:29:in `block (3 levels) in <top (required)>'
+
+  16) Relationship follower methods 
+     Failure/Error: let(:follower) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/relationship_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:9:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:23:in `block (3 levels) in <top (required)>'
+
+  17) Relationship follower methods 
+     Failure/Error: let(:follower) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/relationship_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:9:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:22:in `block (3 levels) in <top (required)>'
+
+  18) Relationship follower methods followed 
+     Failure/Error: let(:follower) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/relationship_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:9:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:25:in `block (3 levels) in <top (required)>'
+
+  19) Relationship follower methods follower 
+     Failure/Error: let(:follower) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/relationship_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:9:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:24:in `block (3 levels) in <top (required)>'
+
+  20) Relationship when follower id is not present 
+     Failure/Error: let(:follower) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/relationship_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:7:in `block (2 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:34:in `block (3 levels) in <top (required)>'
+
+  21) Relationship accessible attributes should not allow access to follower_id
+     Failure/Error: expect do
+       expected ActiveModel::MassAssignmentSecurity::Error, got #<ActiveRecord::RecordInvalid: Validation failed: Rol can't be blank, Rol is invalid> with backtrace:
+         # ./spec/models/relationship_spec.rb:5:in `block (2 levels) in <top (required)>'
+         # ./spec/models/relationship_spec.rb:16:in `block (4 levels) in <top (required)>'
+         # ./spec/models/relationship_spec.rb:15:in `block (3 levels) in <top (required)>'
+     # ./spec/models/relationship_spec.rb:15:in `block (3 levels) in <top (required)>'
+
+  22) User pages index 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  23) User pages index 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  24) User pages index delete links 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  25) User pages index delete links as an admin user 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  26) User pages index delete links as an admin user should be able to delete another user
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  27) User pages index delete links as an admin user 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:9:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:12:in `block (3 levels) in <top (required)>'
+
+  28) User pages index pagination 
+     Failure/Error: before(:all) { 30.times { FactoryGirl.create(:user) } }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:21:in `block (5 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:21:in `times'
+     # ./spec/requests/user_pages_spec.rb:21:in `block (4 levels) in <top (required)>'
+
+  29) User pages index pagination should list each user
+     Failure/Error: before(:all) { 30.times { FactoryGirl.create(:user) } }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:21:in `block (5 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:21:in `times'
+     # ./spec/requests/user_pages_spec.rb:21:in `block (4 levels) in <top (required)>'
+
+  30) User pages profile page 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:54:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:55:in `block (3 levels) in <top (required)>'
+
+  31) User pages profile page 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:54:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:55:in `block (3 levels) in <top (required)>'
+
+  32) User pages profile page follow/unfollow buttons unfollowing a user should decrement the other user's followers count
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:54:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:55:in `block (3 levels) in <top (required)>'
+
+  33) User pages profile page follow/unfollow buttons unfollowing a user should decrement the followed user count
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:54:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:55:in `block (3 levels) in <top (required)>'
+
+  34) User pages profile page follow/unfollow buttons unfollowing a user toggling the button 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:54:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:55:in `block (3 levels) in <top (required)>'
+
+  35) User pages profile page follow/unfollow buttons following a user should increment the other user's followers count
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:54:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:55:in `block (3 levels) in <top (required)>'
+
+  36) User pages profile page follow/unfollow buttons following a user should increment the followed user count
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:54:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:55:in `block (3 levels) in <top (required)>'
+
+  37) User pages profile page follow/unfollow buttons following a user toggling the button 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:54:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:55:in `block (3 levels) in <top (required)>'
+
+  38) User pages profile page microposts 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:54:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:55:in `block (3 levels) in <top (required)>'
+
+  39) User pages profile page microposts 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:54:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:55:in `block (3 levels) in <top (required)>'
+
+  40) User pages profile page microposts 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:54:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:55:in `block (3 levels) in <top (required)>'
+
+  41) User pages following/followers followers 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:191:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:193:in `block (3 levels) in <top (required)>'
+
+  42) User pages following/followers followers 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:191:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:193:in `block (3 levels) in <top (required)>'
+
+  43) User pages following/followers followers 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:191:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:193:in `block (3 levels) in <top (required)>'
+
+  44) User pages following/followers followed users 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:191:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:193:in `block (3 levels) in <top (required)>'
+
+  45) User pages following/followers followed users 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:191:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:193:in `block (3 levels) in <top (required)>'
+
+  46) User pages following/followers followed users 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:191:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:193:in `block (3 levels) in <top (required)>'
+
+  47) User pages edit page 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:151:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:153:in `block (3 levels) in <top (required)>'
+
+  48) User pages edit page 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:151:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:153:in `block (3 levels) in <top (required)>'
+
+  49) User pages edit page 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:151:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:153:in `block (3 levels) in <top (required)>'
+
+  50) User pages edit with invalid information 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:151:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:153:in `block (3 levels) in <top (required)>'
+
+  51) User pages edit with valid information 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:151:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:153:in `block (3 levels) in <top (required)>'
+
+  52) User pages edit with valid information 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:151:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:153:in `block (3 levels) in <top (required)>'
+
+  53) User pages edit with valid information 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:151:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:153:in `block (3 levels) in <top (required)>'
+
+  54) User pages edit with valid information 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:151:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:153:in `block (3 levels) in <top (required)>'
+
+  55) User pages edit with valid information 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:151:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:153:in `block (3 levels) in <top (required)>'
+
+  56) User pages edit with valid information 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/user_pages_spec.rb:151:in `block (3 levels) in <top (required)>'
+     # ./spec/requests/user_pages_spec.rb:153:in `block (3 levels) in <top (required)>'
+
+  57) User micropost associations status feed 
+     Failure/Error: its(:feed) { should include(newer_micropost) }
+     NoMethodError:
+       undefined method `include?' for nil:NilClass
+     # ./spec/models/user_spec.rb:197:in `block (4 levels) in <top (required)>'
+
+  58) User micropost associations status feed 
+     Failure/Error: FactoryGirl.create(:micropost, user: FactoryGirl.create(:user))
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/user_spec.rb:194:in `block (4 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:199:in `block (4 levels) in <top (required)>'
+
+  59) User micropost associations status feed 
+     Failure/Error: let(:followed_user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/user_spec.rb:162:in `block (4 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:165:in `block (4 levels) in <top (required)>'
+
+  60) User micropost associations status feed 
+     Failure/Error: let(:followed_user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/user_spec.rb:162:in `block (4 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:165:in `block (4 levels) in <top (required)>'
+
+  61) User micropost associations status feed 
+     Failure/Error: let(:followed_user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/user_spec.rb:162:in `block (4 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:165:in `block (4 levels) in <top (required)>'
+
+  62) User micropost associations status feed 
+     Failure/Error: let(:followed_user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/user_spec.rb:162:in `block (4 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:165:in `block (4 levels) in <top (required)>'
+
+  63) User following 
+     Failure/Error: let(:other_user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/user_spec.rb:204:in `block (3 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:207:in `block (3 levels) in <top (required)>'
+
+  64) User following followed_users 
+     Failure/Error: let(:other_user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/user_spec.rb:204:in `block (3 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:207:in `block (3 levels) in <top (required)>'
+
+  65) User following followed user followers 
+     Failure/Error: let(:other_user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/user_spec.rb:204:in `block (3 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:207:in `block (3 levels) in <top (required)>'
+
+  66) User following and unfollowing 
+     Failure/Error: let(:other_user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/user_spec.rb:204:in `block (3 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:207:in `block (3 levels) in <top (required)>'
+
+  67) User following and unfollowing followed_users 
+     Failure/Error: let(:other_user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/models/user_spec.rb:204:in `block (3 levels) in <top (required)>'
+     # ./spec/models/user_spec.rb:207:in `block (3 levels) in <top (required)>'
+
+  68) RelationshipsController destroying a relationship with Ajax should respond with success
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/controllers/relationships_controller_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/controllers/relationships_controller_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+  69) RelationshipsController destroying a relationship with Ajax should decrement the Relationship count
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/controllers/relationships_controller_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/controllers/relationships_controller_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+  70) RelationshipsController creating a relationship with Ajax should respond with success
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/controllers/relationships_controller_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/controllers/relationships_controller_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+  71) RelationshipsController creating a relationship with Ajax should increment the Relationship count
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/controllers/relationships_controller_spec.rb:5:in `block (2 levels) in <top (required)>'
+     # ./spec/controllers/relationships_controller_spec.rb:8:in `block (2 levels) in <top (required)>'
+
+  72) Authentication signin with valid information 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:31:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:32:in `block (4 levels) in <top (required)>'
+
+  73) Authentication signin with valid information 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:31:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:32:in `block (4 levels) in <top (required)>'
+
+  74) Authentication signin with valid information 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:31:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:32:in `block (4 levels) in <top (required)>'
+
+  75) Authentication signin with valid information 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:31:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:32:in `block (4 levels) in <top (required)>'
+
+  76) Authentication signin with valid information 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:31:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:32:in `block (4 levels) in <top (required)>'
+
+  77) Authentication signin with valid information 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:31:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:32:in `block (4 levels) in <top (required)>'
+
+  78) Authentication signin with valid information followed by signout 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:31:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:32:in `block (4 levels) in <top (required)>'
+
+  79) Authentication authorization for non-signed-in users when attempting to visit a protected page after signing in should render the desired protected page
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:53:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:82:in `block (5 levels) in <top (required)>'
+
+  80) Authentication authorization for non-signed-in users in the Microposts controller submitting to the destroy action 
+     Failure/Error: before { delete micropost_path(FactoryGirl.create(:micropost)) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:75:in `block (6 levels) in <top (required)>'
+
+  81) Authentication authorization for non-signed-in users in the Users controller visiting the edit page 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:53:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:99:in `block (6 levels) in <top (required)>'
+
+  82) Authentication authorization for non-signed-in users in the Users controller submitting to the update action 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:53:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:109:in `block (6 levels) in <top (required)>'
+
+  83) Authentication authorization for non-signed-in users in the Users controller visiting the followers page 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:53:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:119:in `block (6 levels) in <top (required)>'
+
+  84) Authentication authorization for non-signed-in users in the Users controller visiting the following page 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:53:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:114:in `block (6 levels) in <top (required)>'
+
+  85) Authentication authorization as wrong user submitting a PUT request to the Users#update action 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:125:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:127:in `block (4 levels) in <top (required)>'
+
+  86) Authentication authorization as wrong user visiting Users#edit page 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:125:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:127:in `block (4 levels) in <top (required)>'
+
+  87) Authentication authorization as non-admin user submitting a DELETE request to the Users#destroy action 
+     Failure/Error: let(:non_admin) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/authentication_pages_spec.rb:142:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/authentication_pages_spec.rb:144:in `block (4 levels) in <top (required)>'
+
+  88) Static pages TwTRol page for signed-in users should render the user's feed
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/static_pages_spec.rb:40:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/static_pages_spec.rb:42:in `block (4 levels) in <top (required)>'
+
+  89) Static pages TwTRol page for signed-in users follower/following counts 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/static_pages_spec.rb:40:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/static_pages_spec.rb:42:in `block (4 levels) in <top (required)>'
+
+  90) Static pages TwTRol page for signed-in users follower/following counts 
+     Failure/Error: let(:user) { FactoryGirl.create(:user) }
+     ActiveRecord::RecordInvalid:
+       Validation failed: Rol can't be blank, Rol is invalid
+     # ./spec/requests/static_pages_spec.rb:40:in `block (4 levels) in <top (required)>'
+     # ./spec/requests/static_pages_spec.rb:42:in `block (4 levels) in <top (required)>'
+
+Finished in 4.73 seconds
+159 examples, 90 failures
+
+Failed examples:
+
+rspec ./spec/models/micropost_spec.rb:12 # Micropost 
+rspec ./spec/models/micropost_spec.rb:11 # Micropost 
+rspec ./spec/models/micropost_spec.rb:15 # Micropost 
+rspec ./spec/models/micropost_spec.rb:10 # Micropost 
+rspec ./spec/models/micropost_spec.rb:13 # Micropost user 
+rspec ./spec/models/micropost_spec.rb:18 # Micropost accessible attributes should not allow access to user_id
+rspec ./spec/models/micropost_spec.rb:27 # Micropost when user_id is not present 
+rspec ./spec/models/micropost_spec.rb:37 # Micropost with content that is too long 
+rspec ./spec/models/micropost_spec.rb:32 # Micropost with blank content 
+rspec ./spec/requests/micropost_pages_spec.rb:40 # Micropost pages micropost destruction as correct user should delete a micropost
+rspec ./spec/requests/micropost_pages_spec.rb:28 # Micropost pages micropost creation with valid information should create a micropost
+rspec ./spec/requests/micropost_pages_spec.rb:15 # Micropost pages micropost creation with invalid information should not create a micropost
+rspec ./spec/requests/micropost_pages_spec.rb:21 # Micropost pages micropost creation with invalid information error messages 
+rspec ./spec/models/relationship_spec.rb:11 # Relationship 
+rspec ./spec/models/relationship_spec.rb:30 # Relationship when followed id is not present 
+rspec ./spec/models/relationship_spec.rb:23 # Relationship follower methods 
+rspec ./spec/models/relationship_spec.rb:22 # Relationship follower methods 
+rspec ./spec/models/relationship_spec.rb:25 # Relationship follower methods followed 
+rspec ./spec/models/relationship_spec.rb:24 # Relationship follower methods follower 
+rspec ./spec/models/relationship_spec.rb:35 # Relationship when follower id is not present 
+rspec ./spec/models/relationship_spec.rb:14 # Relationship accessible attributes should not allow access to follower_id
+rspec ./spec/requests/user_pages_spec.rb:17 # User pages index 
+rspec ./spec/requests/user_pages_spec.rb:16 # User pages index 
+rspec ./spec/requests/user_pages_spec.rb:35 # User pages index delete links 
+rspec ./spec/requests/user_pages_spec.rb:44 # User pages index delete links as an admin user 
+rspec ./spec/requests/user_pages_spec.rb:45 # User pages index delete links as an admin user should be able to delete another user
+rspec ./spec/requests/user_pages_spec.rb:48 # User pages index delete links as an admin user 
+rspec ./spec/requests/user_pages_spec.rb:24 # User pages index pagination 
+rspec ./spec/requests/user_pages_spec.rb:26 # User pages index pagination should list each user
+rspec ./spec/requests/user_pages_spec.rb:61 # User pages profile page 
+rspec ./spec/requests/user_pages_spec.rb:60 # User pages profile page 
+rspec ./spec/requests/user_pages_spec.rb:106 # User pages profile page follow/unfollow buttons unfollowing a user should decrement the other user's followers count
+rspec ./spec/requests/user_pages_spec.rb:100 # User pages profile page follow/unfollow buttons unfollowing a user should decrement the followed user count
+rspec ./spec/requests/user_pages_spec.rb:114 # User pages profile page follow/unfollow buttons unfollowing a user toggling the button 
+rspec ./spec/requests/user_pages_spec.rb:82 # User pages profile page follow/unfollow buttons following a user should increment the other user's followers count
+rspec ./spec/requests/user_pages_spec.rb:76 # User pages profile page follow/unfollow buttons following a user should increment the followed user count
+rspec ./spec/requests/user_pages_spec.rb:90 # User pages profile page follow/unfollow buttons following a user toggling the button 
+rspec ./spec/requests/user_pages_spec.rb:64 # User pages profile page microposts 
+rspec ./spec/requests/user_pages_spec.rb:65 # User pages profile page microposts 
+rspec ./spec/requests/user_pages_spec.rb:66 # User pages profile page microposts 
+rspec ./spec/requests/user_pages_spec.rb:212 # User pages following/followers followers 
+rspec ./spec/requests/user_pages_spec.rb:213 # User pages following/followers followers 
+rspec ./spec/requests/user_pages_spec.rb:214 # User pages following/followers followers 
+rspec ./spec/requests/user_pages_spec.rb:201 # User pages following/followers followed users 
+rspec ./spec/requests/user_pages_spec.rb:202 # User pages following/followers followed users 
+rspec ./spec/requests/user_pages_spec.rb:203 # User pages following/followers followed users 
+rspec ./spec/requests/user_pages_spec.rb:158 # User pages edit page 
+rspec ./spec/requests/user_pages_spec.rb:159 # User pages edit page 
+rspec ./spec/requests/user_pages_spec.rb:160 # User pages edit page 
+rspec ./spec/requests/user_pages_spec.rb:166 # User pages edit with invalid information 
+rspec ./spec/requests/user_pages_spec.rb:181 # User pages edit with valid information 
+rspec ./spec/requests/user_pages_spec.rb:182 # User pages edit with valid information 
+rspec ./spec/requests/user_pages_spec.rb:183 # User pages edit with valid information 
+rspec ./spec/requests/user_pages_spec.rb:186 # User pages edit with valid information 
+rspec ./spec/requests/user_pages_spec.rb:184 # User pages edit with valid information 
+rspec ./spec/requests/user_pages_spec.rb:185 # User pages edit with valid information 
+rspec ./spec/models/user_spec.rb:197 # User micropost associations status feed 
+rspec ./spec/models/user_spec.rb:199 # User micropost associations status feed 
+rspec ./spec/models/user_spec.rb:171 # User micropost associations status feed 
+rspec ./spec/models/user_spec.rb:170 # User micropost associations status feed 
+rspec ./spec/models/user_spec.rb:172 # User micropost associations status feed 
+rspec ./spec/models/user_spec.rb:169 # User micropost associations status feed 
+rspec ./spec/models/user_spec.rb:210 # User following 
+rspec ./spec/models/user_spec.rb:211 # User following followed_users 
+rspec ./spec/models/user_spec.rb:215 # User following followed user followers 
+rspec ./spec/models/user_spec.rb:221 # User following and unfollowing 
+rspec ./spec/models/user_spec.rb:222 # User following and unfollowing followed_users 
+rspec ./spec/controllers/relationships_controller_spec.rb:35 # RelationshipsController destroying a relationship with Ajax should respond with success
+rspec ./spec/controllers/relationships_controller_spec.rb:29 # RelationshipsController destroying a relationship with Ajax should decrement the Relationship count
+rspec ./spec/controllers/relationships_controller_spec.rb:18 # RelationshipsController creating a relationship with Ajax should respond with success
+rspec ./spec/controllers/relationships_controller_spec.rb:12 # RelationshipsController creating a relationship with Ajax should increment the Relationship count
+rspec ./spec/requests/authentication_pages_spec.rb:34 # Authentication signin with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:36 # Authentication signin with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:37 # Authentication signin with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:41 # Authentication signin with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:38 # Authentication signin with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:39 # Authentication signin with valid information 
+rspec ./spec/requests/authentication_pages_spec.rb:45 # Authentication signin with valid information followed by signout 
+rspec ./spec/requests/authentication_pages_spec.rb:90 # Authentication authorization for non-signed-in users when attempting to visit a protected page after signing in should render the desired protected page
+rspec ./spec/requests/authentication_pages_spec.rb:76 # Authentication authorization for non-signed-in users in the Microposts controller submitting to the destroy action 
+rspec ./spec/requests/authentication_pages_spec.rb:100 # Authentication authorization for non-signed-in users in the Users controller visiting the edit page 
+rspec ./spec/requests/authentication_pages_spec.rb:110 # Authentication authorization for non-signed-in users in the Users controller submitting to the update action 
+rspec ./spec/requests/authentication_pages_spec.rb:120 # Authentication authorization for non-signed-in users in the Users controller visiting the followers page 
+rspec ./spec/requests/authentication_pages_spec.rb:115 # Authentication authorization for non-signed-in users in the Users controller visiting the following page 
+rspec ./spec/requests/authentication_pages_spec.rb:136 # Authentication authorization as wrong user submitting a PUT request to the Users#update action 
+rspec ./spec/requests/authentication_pages_spec.rb:131 # Authentication authorization as wrong user visiting Users#edit page 
+rspec ./spec/requests/authentication_pages_spec.rb:148 # Authentication authorization as non-admin user submitting a DELETE request to the Users#destroy action 
+rspec ./spec/requests/static_pages_spec.rb:48 # Static pages TwTRol page for signed-in users should render the user's feed
+rspec ./spec/requests/static_pages_spec.rb:61 # Static pages TwTRol page for signed-in users follower/following counts 
+rspec ./spec/requests/static_pages_spec.rb:60 # Static pages TwTRol page for signed-in users follower/following counts 
+
+Randomized with seed 45204
+

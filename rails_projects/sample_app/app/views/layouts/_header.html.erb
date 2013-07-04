@@ -1,0 +1,45 @@
+<div id="templatemo_header">
+    	<div id="site_title">
+            <a href="/home">Social Rol Simulator</a>
+        </div>
+        
+        <!--<div id="header_right">
+        	
+            <a href="#" class="button twitter"></a>
+            <a href="#" class="button mail"></a>
+            <a href="#" class="button rss"></a>-->
+            
+    
+    
+	
+            <div id="templatemo_menu" class="navbar navbar-inverse">
+			<div class="container">
+                <ul class="nav pull-right">
+				    <li><a href="/home"  class="current">TwT</a></li>
+                    <li><a href="/news">Noticias</a></li>
+                    <li><a href="/mission">Misiones</a></li>
+                    <li><a href="/guide">Reglas</a></li>
+                    <li><a href="/contact">Contactar</a></li> <!--class="last"-->
+                    <% if signed_in? %>
+            <li><%= link_to "Usuarios", users_path %></li>
+            <li id="fat-menu" class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                Mi cuenta <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><%= link_to "Perfil", current_user %></li>
+                <li><%= link_to "Configuración", edit_user_path(current_user) %></li>
+                <li class="divider"></li>
+                <li>
+                  <%= link_to "Sign out", signout_path, method: "delete" %>
+                </li>
+              </ul>
+            </li>
+          <% else %>
+            <li><%= link_to "Sign in", signin_path %></li>
+          <% end %>
+        </ul>
+</div>				
+            </div> <!-- end of templatemo_menu -->
+        <!--</div>--> <!--end of header_right-->
+    </div> <!-- end of templatemo_header -->

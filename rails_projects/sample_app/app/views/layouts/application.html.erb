@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title><%= full_title(yield(:title)) %></title>
+	<%= stylesheet_link_tag    "application", media: "all" %>
+	
+	<script language="javascript" type="text/javascript">
+		function clearText(field){
+			if (field.defaultValue == field.value) field.value = '';
+			else if (field.value == '') field.value = field.defaultValue;
+		}
+		</script>
+		    
+	<%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+    <%= render 'layouts/shim' %>  
+</head>
+<body>
+      <div id="templatemo_wrapper_01">
+		<div id="templatemo_wrapper_02">
+			<%= render 'layouts/header' %>
+			<div id="templatemo_main">
+				<div id="templatemo_content_wrapper">
+					<div id="templatemo_content_top"></div>
+					<% flash.each do |key, value| %>
+						<div class="alert alert-<%= key %>"><%= value %></div>
+					<% end %>		
+					<div id="templatemo_content">
+						<%= yield %>
+					</div> <!-- end of content -->
+					<div id="templatemo_content_bottom"></div>
+				</div> <!-- end of content wrapper -->
+				<%= render 'layouts/sidebar' %>
+				<div class="clear"></div>
+			</div> <!-- end of main -->
+			<%= render 'layouts/footer' %>
+			<%= debug(params) if Rails.env.development? %>	
+		</div> <!-- end of wrapper 02 -->
+      </div> <!-- end of wrapper 01 -->
+</body>
+</html>

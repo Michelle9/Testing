@@ -1,0 +1,16 @@
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+/rails_projects/sample_app/.bundle
+/rails_projects/sample_app/vendor/bundle
+/rails_projects/sample_app/log/*
+/rails_projects/sample_app/tmp/*
+/rails_projects/sample_app/db/*.sqlite3
+/rails_projects/sample_app/public/system/*
+/rails_projects/sample_app/coverage/
+/rails_projects/sample_app/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
