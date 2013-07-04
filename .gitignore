@@ -11,6 +11,14 @@ capybara-*.html
 /rails_projects/sample_app/public/system/*
 /rails_projects/sample_app/coverage/
 /rails_projects/sample_app/spec/tmp/*
+/log/*
+/vendor/bundle
+/.bundle
+/tmp/*
+/system/*
+/coverage/
+/*.sqlite3
+/spec/tmp/*
 **.orig
 rerun.txt
 pickle-email-*.html
